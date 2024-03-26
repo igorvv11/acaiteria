@@ -1,0 +1,64 @@
+
+body{
+    font-family: Roboto, sans-serif;
+}
+.navbar{
+    background-color:#46295a;
+}
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: #46295a;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand, 
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+
+
+.navbar-toggler{
+    background-color: #e0b0ff;
+}
+
+.section-title{
+    font-family:"Pacifico", cursive;  
+}
+
+
+#eventos, #fale-conosco{
+    background-color: #e0b0ff;
+}
+
+.text-colored{
+    color: #800080;
+}
+.nav-cardapio .nav-link.active, #fale-conosco button {
+    background-color: #46295a;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover{
+    color: #46295a;
+}
+
+.social-link li {
+    list-style: none;
+    display: inline;
+}
+.social-link a{
+    text-decoration: none;
+}
+
+
+.carousel-inner{
+    background-color: #e0b0ff;
+}
+@media screen and (min-width:1010px) {
+    .carousel-inner img{
+        height: 720px;
+    }
+    
+}
